@@ -11,19 +11,6 @@ var config = {
   headers: { }
 };
 
-axios(config)
-.then(function ({ data }) {
-  const filteredData = filtrarDados(JSON.stringify(data));
-  saveToHistory(filteredData);
-})
-.catch(function (error) {
-  console.log(error);
-})
-.finally(function () {
-  calculateAverageSpeed();
-});
-
-
 function filtrarDados(data) {
   const jsonData = JSON.parse(data);
   const rows = jsonData.rows;
@@ -78,19 +65,15 @@ function calculateAverageSpeed() {
     console.log('Velocidade média da rota 1:', averageSpeed1);
     console.log('Velocidade média da rota 2:', averageSpeed2);
 
-    console.log(speedDifference(averageSpeed1, averageSpeed2));
+    console.log('speed ratio:',speedDifference(averageSpeed1, averageSpeed2));
     console.log(adjustSemaphoreDuration(averageSpeed1, averageSpeed2, 60, 60));
   });
 }
 
 function speedDifference(velocidade1, velocidade2) {
-  if (velocidade1 > velocidade2) {
-    return `caminho 1 é ${Math.round(((velocidade1 / velocidade2)*100)-100)}% mais rapido do que o 2`;
-  } else {
-    return `caminho 2 é ${Math.round(((velocidade2 / velocidade1)*100)-100)}% mais rapido do que o 1`;
-  }
+  const speedRatio = velocidade1 / velocidade2;
+  return speedRatio
 }
-
 
 function adjustSemaphoreDuration(averageSpeed1, averageSpeed2, initialDuration1, initialDuration2) {
   if (averageSpeed1 === 0 || averageSpeed2 === 0) {
@@ -113,7 +96,7 @@ function adjustSemaphoreDuration(averageSpeed1, averageSpeed2, initialDuration1,
       adjustedDuration1 = Math.min(initialDuration1 / speedRatio, initialDuration1 * 1.5);
     }
   }
-  
+
   adjustedDuration1 = Math.round(adjustedDuration1 / 5) * 5;
   adjustedDuration2 = Math.round(adjustedDuration2 / 5) * 5;
 
@@ -141,7 +124,7 @@ function saveToHistory(filteredData) {
     history.push(filteredData);
 
     if (history.length > 10) {
-      history.shift(); // Remove o primeiro elemento do array se tiver mais de 10 itens
+      history.shift();
     }
 
     fs.writeFile('history.json', JSON.stringify(history, null, 2), 'utf8', (err) => {
@@ -152,3 +135,18 @@ function saveToHistory(filteredData) {
   });
 }
 
+function main() {
+  axios(config)
+  .then(function ({ data }) {
+    const filteredData = filtrarDados(JSON.stringify(data));
+    saveToHistory(filteredData);
+  })
+  .catch(function (error) {
+    console.log(error);
+  })
+  .finally(function () {
+    calculateAverageSpeed();
+  });
+}
+main();
+setInterval(main,  60000);
