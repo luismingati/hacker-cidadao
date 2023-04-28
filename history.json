@@ -3,13 +3,13 @@
     {
       "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 274,
+      "duration_in_traffic": 399,
       "distance_value": 1764
     },
     {
       "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 169,
+      "duration_in_traffic": 231,
       "distance_value": 1274
     }
   ],
@@ -17,13 +17,13 @@
     {
       "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 274,
+      "duration_in_traffic": 394,
       "distance_value": 1764
     },
     {
       "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 169,
+      "duration_in_traffic": 224,
       "distance_value": 1274
     }
   ],
@@ -31,13 +31,13 @@
     {
       "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 276,
+      "duration_in_traffic": 468,
       "distance_value": 1764
     },
     {
       "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 169,
+      "duration_in_traffic": 232,
       "distance_value": 1274
     }
   ],
@@ -45,13 +45,13 @@
     {
       "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 275,
+      "duration_in_traffic": 468,
       "distance_value": 1764
     },
     {
       "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 166,
+      "duration_in_traffic": 232,
       "distance_value": 1274
     }
   ],
@@ -59,55 +59,13 @@
     {
       "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 277,
-      "distance_value": 2074
-    },
-    {
-      "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
-      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 158,
-      "distance_value": 1274
-    }
-  ],
-  [
-    {
-      "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
-      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 277,
-      "distance_value": 2074
-    },
-    {
-      "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
-      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 158,
-      "distance_value": 1274
-    }
-  ],
-  [
-    {
-      "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
-      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 277,
-      "distance_value": 2074
-    },
-    {
-      "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
-      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 158,
-      "distance_value": 1274
-    }
-  ],
-  [
-    {
-      "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
-      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 261,
+      "duration_in_traffic": 426,
       "distance_value": 1764
     },
     {
       "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 160,
+      "duration_in_traffic": 234,
       "distance_value": 1274
     }
   ],
@@ -115,13 +73,13 @@
     {
       "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 263,
+      "duration_in_traffic": 426,
       "distance_value": 1764
     },
     {
       "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 166,
+      "duration_in_traffic": 247,
       "distance_value": 1274
     }
   ],
@@ -129,13 +87,55 @@
     {
       "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 258,
+      "duration_in_traffic": 426,
       "distance_value": 1764
     },
     {
       "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
       "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
-      "duration_in_traffic": 168,
+      "duration_in_traffic": 246,
+      "distance_value": 1274
+    }
+  ],
+  [
+    {
+      "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
+      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
+      "duration_in_traffic": 385,
+      "distance_value": 1764
+    },
+    {
+      "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
+      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
+      "duration_in_traffic": 259,
+      "distance_value": 1274
+    }
+  ],
+  [
+    {
+      "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
+      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
+      "duration_in_traffic": 322,
+      "distance_value": 1764
+    },
+    {
+      "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
+      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
+      "duration_in_traffic": 257,
+      "distance_value": 1274
+    }
+  ],
+  [
+    {
+      "origin": "Av. Antônio de Goes, 60 - Pina, Recife - PE, 51110-150, Brazil",
+      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
+      "duration_in_traffic": 317,
+      "distance_value": 1764
+    },
+    {
+      "origin": "Av. Antônio de Goes, 470 - Pina, Recife - PE, 51010-000, Brazil",
+      "destination": "Av. Eng. José Estelita, s/n - Cabanga, Recife - PE, 50090-040, Brazil",
+      "duration_in_traffic": 254,
       "distance_value": 1274
     }
   ]
